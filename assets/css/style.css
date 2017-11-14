@@ -1,0 +1,144 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	color:#565656;
+	
+}
+a:hover { text-decoration: none; }
+
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.section-padding {
+	
+	padding:80px 0;
+}
+.section-bg-1:after{
+	background-image:url(../img/bg.png);
+}
+
+.section-bg-1{
+	position:relative;
+	
+}
+.section-bg-1:after{
+		position:absolute;
+		left:0;
+		top:0;
+		background-position:center;
+		background-size:cover;
+		content:"";
+		height:100%;
+		width:45%;
+}  
+h2.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+	color:#333;
+}
+h2.section-title span {
+    color: deepskyblue;
+}
+
+.section-fq .panel-default>.panel-heading {
+   background: none;
+   border:medium none;
+   border-radius:0;
+
+}
+.section-fq .panel{
+		
+       background-color: #fff;
+     border:none; 
+    border-radius:0px;
+    -webkit-box-shadow: none; 
+   
+	
+}
+.section-fq .panel-default>.panel-heading+.panel-collapse>.panel-body{
+	border-top:none;
+	
+}
+.section-fq h4.panel-title a {
+    padding: 3px;
+    display: block;
+	position:relative;
+}
+
+.section-fq h4.panel-title a i.fa{
+
+	float:right;
+	font-size: 140%;
+	line-height: 15px;
+	display:none;
+
+}
+
+.section-fq h4.panel-title a[aria-expanded=true] i.fa.fa-angle-down{
+	display:block;
+}
+.section-fq h4.panel-title a[aria-expanded=false] i.fa.fa-angle-up{
+	display:block;
+}
+
+.section-fq{
+	
+	min-height:480px;
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
